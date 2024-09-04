@@ -1,0 +1,42 @@
+.button,
+.button__signup {
+    user-select: none;
+    border: 0;
+    cursor: pointer;
+    fill: currentColor;
+    position: relative;
+    transition-duration: 250ms;
+    transition-property: background-color, border-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    vertical-align: text-top;
+    width: auto;
+    font-size: 0.875rem;
+    font-weight: 500 bold;
+    min-height: 2rem;
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    
+}
+
+.button:hover,
+.button__signup:hover {
+    background-color: #cc0000;
+}
+
+@media (max-width: 520px) {
+
+    .button__signup {
+        display: none;
+    }
+}
+
+@media (max-width: 410px) {
+
+    .button {
+        font-size: 0.6rem;
+        font-weight: 500 bold;
+        min-height: 1rem;
+    }
+}

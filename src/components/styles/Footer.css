@@ -1,0 +1,43 @@
+.footer {
+    width:auto;
+    background-color: #111;
+    margin: 20px;
+}
+
+.footer__icons {
+    display: flex;
+    gap: 20px;
+    margin: 30px;
+}
+
+.footer__icons img {
+    width: 30px;
+    cursor: pointer;
+}
+
+.footer ul a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.footer ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    margin-bottom: 30px;
+    list-style: none;
+}
+
+.footer__copyright {
+    color:gray;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 460px) {
+    .footer ul {
+        grid-template-columns: auto auto;
+    }
+}

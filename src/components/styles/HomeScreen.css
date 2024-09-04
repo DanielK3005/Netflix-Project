@@ -1,0 +1,73 @@
+.homescreen {
+    overflow: visible;
+    position: relative;
+    z-index: 1;
+    background-color: #111;
+}
+
+.homescreen__container {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: #111;
+  }
+  
+  .homescreen__image {
+    width: 100%; 
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+  
+  .homescreen__maintext {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    padding: 0 20px; 
+  }
+  
+  .homescreen__maintext h1 {
+    font-size: 3rem; 
+    font-weight: bold;
+  }
+  
+  .homescreen__maintext p {
+    font-size: 1.2rem; 
+    margin-top: 10px;
+  }
+
+  .homescreen__footer {
+    position: fixed;
+  }
+  
+
+  @media (max-width: 900px) {
+    
+
+    .homescreen__maintext h1 {
+      font-size: 2rem; 
+    }
+    
+    .homescreen__maintext p {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 610px) {
+
+    .homescreen__maintext {
+      top: 40%;
+    }
+
+    .homescreen__maintext h1 {
+      font-size: 1.5rem;
+    }
+    
+    .homescreen__maintext p {
+      font-size: 1rem;
+    }
+  }

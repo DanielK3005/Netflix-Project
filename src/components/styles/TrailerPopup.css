@@ -1,0 +1,21 @@
+.popup {
+    max-width: fit-content;
+}
+
+.popup__closebutton {
+    background-color: white;
+    width: 30px;
+    margin-left: 610px;
+    cursor: pointer;
+}
+
+@media (max-width: 660px ) {
+    .popup__video iframe{
+        max-width: 320px;
+        max-height: 200px;
+    }
+
+    .popup__closebutton {
+        margin-left: 290px;
+    }
+}
