@@ -10,6 +10,7 @@ function HomeScreen(props) {
     const handelLogginStatus = () => {
         if (props.isLoggedIn === true) {
             navigate("/Movies")
+            window.location.reload();
         }
     }
     useEffect(() => handelLogginStatus(), [props.isLoggedIn])

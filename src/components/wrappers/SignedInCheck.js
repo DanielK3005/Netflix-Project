@@ -7,23 +7,16 @@ function SignedInCheck(props) {
     const navigate = useNavigate();
     let user = useSelector(selectUser);
 
-    /*useEffect(() => {
-        if (props.isLoggedIn === false){
-            navigate("/Login");
-        }
-    },[])*/
 
     const signInHandel = () => {
       if (props.isLoggedIn === false){
         navigate("/Login");
+        window.location.reload();
       }
       else {
         return props.children;
       }
     }
-
-    if(user)
-      console.log(user.id)
 
   return (
     <div>
