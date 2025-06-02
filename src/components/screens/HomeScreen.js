@@ -20,7 +20,7 @@ function HomeScreen(props) {
         <div className='homescreen'>
             <Header isLoggedIn={props.isLoggedIn} />
             <div class="homescreen__container">
-                <img src="https://gtwallpaper.org/sites/default/files/wallpaper/246844/netflix-background-246844-2224740-3441109.png" class="homescreen__image" />
+                <img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/netflixteaser.png" class="homescreen__image" />
                 <div class="homescreen__maintext">
                     <h1>Unlimited movies, TV shows, and more</h1>
                     <p>Watch anywhere. Cancel anytime.</p>
